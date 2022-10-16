@@ -12,6 +12,9 @@
     $a4=array("b"=>"blue","c"=>"yellow");
     print_r(array_merge_recursive($a3,$a4));
 
-    echo $array;
+    foreach($arraye as $x => $x_value) {
+        echo "Key=" . $x . ", Value=" . $x_value;
+        echo "<br>";
+    }
 
  ?>
