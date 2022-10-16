@@ -5,16 +5,6 @@
         echo $i;
     }
 
-    #Arrays Asociativos
-    $arraye = array(0 => "edison", 1 => "fernando" );
-
-    #Array Merge
-    $a1=array("red","green");
-    $a2=array("blue","yellow");
-    print_r(array_merge($a1,$a2));
-    
-    echo $array;
-
     foreach ($variable as $key => $value) {
         # code...
     }
