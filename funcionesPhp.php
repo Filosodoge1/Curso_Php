@@ -22,4 +22,17 @@
     // since strict is enabled and "5 days" is not an integer, an error will be thrown
     ?>*/
 
+    /*
+    Declarando el tipo de Dato de la salida del resultado de la funcion
+
+    ?php declare(strict_types=1); // strict requirement
+    function addNumbers(float $a, float $b) : float {
+    return $a + $b;
+    }
+    echo addNumbers(1.2, 5.2);
+    ?>
+
+    Resultado: 6.4
+    */
+
 ?>
